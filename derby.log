@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Wed Sep 09 12:25:24 CST 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-0174-711c-354a-00000a9cd058 
+on database directory memory:E:\code\hive_project\9eb379e1-375d-42d3-8604-806750a57072 with class loader sun.misc.Launcher$AppClassLoader@18b4aac2 
+Loaded from file:/D:/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_261-b12
+user.dir=E:\code\hive_project
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
