@@ -50,14 +50,14 @@ public class UserService {
         return userMapper.getPhase(faultName,flightPhase);
     }
 
-    public Map<String, Object> getMap() {
+    public Map<String, Object> getMap(String faultName,String flightPhase) {
         Map<String, Object> map = new HashMap<>(3);
 
-        Phase phase = userMapper.getPhase().get(0);
+        Phase phase = userMapper.getPhase(faultName,flightPhase).get(0);
         Data data = new Data();
         data.setTitle(phase.getField());
         data.setType(phase.getField().substring(8,11));
-        List allvalue = userMapper.getPhase().get(0).getValue();
+        List allvalue = phase.getValue();
         List trends = new ArrayList();
         for (int i=0;i<allvalue.size();i+=2){
             String str1 = ((String) allvalue.get(i));
